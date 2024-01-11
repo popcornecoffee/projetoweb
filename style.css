@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: black;
+    color: white;
+  }
+  
+  h1 {
+    color: yellow;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: gray;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input, button {
+    padding: 8px;
+    margin: 5px;
+    width: 100%;
+  }
+  
+  button {
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Adicionando uma transição suave */
+  }
+  
+  button:hover {
+    background-color: orange; /* Nova cor quando o mouse passa sobre o botão */
+  }
+  
+  #productList {
+    color: yellow;
+  }
+  
+  /* Adicionar estilos responsivos */
+  @media (min-width: 600px) {
+    /* Exemplo: ajuste para telas maiores que 600 pixels de largura */
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  }
+  
